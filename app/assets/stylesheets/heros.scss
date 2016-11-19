@@ -1,0 +1,43 @@
+// Place all the styles related to the Heros controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+a {
+    text-decoration: none;
+    color: black;
+}
+img {
+    width: 50px;
+    height: 50px;
+}
+.show {
+  background-color: chocolate;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.edit {
+  background-color: darkslateblue;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.delete {
+  background-color: crimson;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+#creer {
+  background-color: burlywood;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  height: 20px;
+}
+
+#creer::before {
+  content: "+ ";
+}
